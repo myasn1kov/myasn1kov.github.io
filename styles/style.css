@@ -278,7 +278,6 @@
   flex-direction: row;
   justify-content: space-between;
   color: white;
-  border: 1px solid #f2f2f2;
   margin: auto;
   width: 90%;
 }
@@ -287,7 +286,6 @@
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
-  border: 1px solid #f2f2f2;
   justify-content: space-between;
   align-items: flex-start;
 }
@@ -295,7 +293,6 @@
 .footer__author {
   margin-top: 18px;
   margin-bottom: 18px;
-  border: 1px solid #f2f2f2;
   bottom: 0;
   left: 0;
 }
@@ -316,17 +313,9 @@
   text-decoration: none;
 }
 
-.footer__column_content_info {
-  border: 1px solid #f2f2f2;
-}
-
 .footer__column-heading {
   margin-bottom: 20px;
   line-height: 30px;
   font-size: 18px;
   font-size: 600;
-}
-
-.footer__column_content_social {
-  border: 1px solid #f2f2f2;
 }
