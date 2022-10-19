@@ -128,7 +128,7 @@
   text-align: center;
   line-height: 34px;
   font-size: 24px;
-  font-weight: normal; /* свойства, как в брифе, в выглядит по-другому( */
+  font-weight: normal;
 }
 .table {
   margin: auto;
@@ -156,9 +156,9 @@
 
 .table__text {
   position: relative;
-  line-height: 1.15;
+  line-height: 1.2;
   font-size: 18px;
-  font-style: normal;
+  font-weight: normal;
 }
 
 .feynman {
@@ -217,30 +217,13 @@
 .section__title_theme_dark {
   color: white;
   margin: 90px auto 20px;
-  width: 60vw;
-  text-align: center;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: 600;
 }
 
 .section__subtitle_theme_dark {
   color: white;
   margin: 0px auto;
-  width: 60vw;
-  text-align: center;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
 }
-
-.table_theme_dark {
-  margin: auto;
-  width: 1100px;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  flex-wrap: wrap;
+.table__theme_dark {
 }
 
 .table__cell_theme_dark {
@@ -249,21 +232,11 @@
   width: 200px;
   color: white;
 }
-
 .table__heading_theme_dark {
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 600;
-  margin-bottom: 20px;
 }
 
 .table__text_theme_dark {
-  position: relative;
-  line-height: 1.2;
-  font-size: 18px;
-  font-style: normal;
 }
-
 .footer {
   padding-top: 60px;
   padding-bottom: 40px;
@@ -271,7 +244,6 @@
   min-height: 350px;
   box-sizing: border-box;
 }
-
 .footer__columns {
   height: 100%;
   display: flex;
