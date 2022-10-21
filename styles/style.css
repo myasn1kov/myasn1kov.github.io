@@ -52,6 +52,7 @@
 }
 
 .header__subtitle {
+  margin: 0;
   position: absolute;
   left: 64px;
   bottom: 30px;
@@ -125,7 +126,7 @@
 }
 
 .section-subtitle {
-  margin: 0px auto 60px;
+  margin: 0px auto;
   width: 60%;
   text-align: center;
   line-height: 34px;
@@ -218,7 +219,8 @@
   overflow: hidden;
   padding-bottom: 90px;
 }
-.kaufman-triangle {
+
+.kaufman__triangle {
   position: absolute;
   top: 0px;
   right: -210px;
@@ -313,6 +315,6 @@
   text-decoration: none;
 }
 
-.footer__column-link-logo {
+.footer__social-icon {
   margin-right: 10px;
 }
